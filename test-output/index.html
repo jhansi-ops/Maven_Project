@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-crossbrowsertestsuite">
+              <span class="suite-name border-failed">crossbrowsertestsuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-crossbrowsertestsuite">
+                    <span>D:\Mavenprojects\MavenProjects1\jhansi.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-crossbrowsertestsuite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-crossbrowsertestsuite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-crossbrowsertestsuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-crossbrowsertestsuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-crossbrowsertestsuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-crossbrowsertestsuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">4 methods, 3 failed,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-crossbrowsertestsuite" class="hide-methods failed suite-crossbrowsertestsuite"> (hide)</a> <!-- hide-methods failed suite-crossbrowsertestsuite -->
+                      <a href="#" panel-name="suite-crossbrowsertestsuite" class="show-methods failed suite-crossbrowsertestsuite"> (show)</a> <!-- show-methods failed suite-crossbrowsertestsuite -->
+                    </span>
+                    <div class="method-list-content failed suite-crossbrowsertestsuite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-crossbrowsertestsuite" title="com.MavenProjects1_Testcases.TC_Login_001" hash-for-method="Login">Login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-crossbrowsertestsuite" title="com.MavenProjects1_Testcases.TC_LoginDDT_002" hash-for-method="login(jhansi@gmail.com, )">login(jhansi@gmail.com, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-crossbrowsertestsuite" title="com.MavenProjects1_Testcases.TC_LoginDDT_002" hash-for-method="login(janu@gmail.com, )">login(janu@gmail.com, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-crossbrowsertestsuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-crossbrowsertestsuite" class="hide-methods passed suite-crossbrowsertestsuite"> (hide)</a> <!-- hide-methods passed suite-crossbrowsertestsuite -->
+                      <a href="#" panel-name="suite-crossbrowsertestsuite" class="show-methods passed suite-crossbrowsertestsuite"> (show)</a> <!-- show-methods passed suite-crossbrowsertestsuite -->
+                    </span>
+                    <div class="method-list-content passed suite-crossbrowsertestsuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-crossbrowsertestsuite" title="com.MavenProjects1_Testcases.TC_LoginDDT_002" hash-for-method="login(admin@yourstore.com, admin)">login(admin@yourstore.com, admin)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-crossbrowsertestsuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-crossbrowsertestsuite" class="panel crossbrowsertestsuite">
+          <div class="suite-crossbrowsertestsuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.MavenProjects1_Testcases.TC_LoginDDT_002</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(jhansi@gmail.com, )">
+                  </a> <!-- login(jhansi@gmail.com, ) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(jhansi@gmail.com, )</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.MavenProjects1_Testcases.TC_LoginDDT_002.login(TC_LoginDDT_002.java:40)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(janu@gmail.com, )">
+                  </a> <!-- login(janu@gmail.com, ) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(janu@gmail.com, )</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.MavenProjects1_Testcases.TC_LoginDDT_002.login(TC_LoginDDT_002.java:40)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-crossbrowsertestsuite-class-failed -->
+          <div class="suite-crossbrowsertestsuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.MavenProjects1_Testcases.TC_Login_001</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login">
+                  </a> <!-- Login -->
+                  <span class="method-name">Login</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.MavenProjects1_Testcases.TC_Login_001.Login(TC_Login_001.java:44)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-crossbrowsertestsuite-class-failed -->
+          <div class="suite-crossbrowsertestsuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.MavenProjects1_Testcases.TC_LoginDDT_002</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(admin@yourstore.com, admin)">
+                  </a> <!-- login(admin@yourstore.com, admin) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(admin@yourstore.com, admin)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-crossbrowsertestsuite-class-passed -->
+        </div> <!-- panel crossbrowsertestsuite -->
+        <div panel-name="test-xml-crossbrowsertestsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Mavenprojects\MavenProjects1\jhansi.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;crossbrowsertestsuite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;comm.MavenProjects1_Utility.Extent_utility&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;chrometest&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.MavenProjects1_Testcases.TC_Login_001&quot;/&gt;
+      &lt;class name=&quot;com.MavenProjects1_Testcases.TC_LoginDDT_002&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- chrometest --&gt;
+&lt;/suite&gt; &lt;!-- crossbrowsertestsuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-crossbrowsertestsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for crossbrowsertestsuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">chrometest (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-crossbrowsertestsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for crossbrowsertestsuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-crossbrowsertestsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for crossbrowsertestsuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_crossbrowsertestsuite');
+function tableData_crossbrowsertestsuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(4);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'login')
+data.setCell(0, 2, 'com.MavenProjects1_Testcases.TC_LoginDDT_002')
+data.setCell(0, 3, 21488);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Login')
+data.setCell(1, 2, 'com.MavenProjects1_Testcases.TC_Login_001')
+data.setCell(1, 3, 12670);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'login')
+data.setCell(2, 2, 'com.MavenProjects1_Testcases.TC_LoginDDT_002')
+data.setCell(2, 3, 8197);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'login')
+data.setCell(3, 2, 'com.MavenProjects1_Testcases.TC_LoginDDT_002')
+data.setCell(3, 3, 6264);
+window.suiteTableData['crossbrowsertestsuite']= { tableData: data, tableDiv: 'times-div-crossbrowsertestsuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 48 seconds</span>
+              <div id="times-div-crossbrowsertestsuite">
+              </div> <!-- times-div-crossbrowsertestsuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-crossbrowsertestsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for crossbrowsertestsuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-crossbrowsertestsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-crossbrowsertestsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.MavenProjects1_Testcases.TC_Login_001</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">Setup(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Login</span>
+                <span class="method-start">4111 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">breakdown</span>
+                <span class="method-start">16819 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.MavenProjects1_Testcases.TC_LoginDDT_002</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">Setup(chrome)</span>
+                <span class="method-start">17583 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">login(jhansi@gmail.com, )</span>
+                <span class="method-start">20642 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login(admin@yourstore.com, admin)</span>
+                <span class="method-start">28843 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">login(janu@gmail.com, )</span>
+                <span class="method-start">50333 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">breakdown</span>
+                <span class="method-start">56599 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

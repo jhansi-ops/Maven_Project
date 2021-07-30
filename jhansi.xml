@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="crossbrowsertestsuite" >
+
+<listeners>
+
+<listener class-name="comm.MavenProjects1_Utility.Extent_utility"/>
+
+</listeners>
+	<test name="chrometest">
+
+	<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.MavenProjects1_Testcases.TC_Login_001" />
+			<class name="com.MavenProjects1_Testcases.TC_LoginDDT_002" />
+		</classes>
+	</test>
+	
+	
+
+	
+</suite>
